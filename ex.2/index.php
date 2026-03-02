@@ -2,6 +2,8 @@
     <label>Enter a number:</label>
     <input type="number" name="nb">
     <button type="submit">Find Divisors</button>
+
+
 </form>
 
 <?php
