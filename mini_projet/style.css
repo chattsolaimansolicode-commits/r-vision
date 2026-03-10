@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+}
+
+h2,
+h3 {
+  color: #ff4d4d;
+  margin-bottom: 15px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+select,
+input[type="number"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ff4d4d;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+select option {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e60000;
+}
+
+p {
+  margin-top: 10px;
+  color: #ff6666;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ff4d4d;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #ff4d4d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #e60000;
+}
+
+a.index-link {
+  background-color: #ff3333;
+}
+
+a.index-link:hover {
+  background-color: #cc0000;
+}
